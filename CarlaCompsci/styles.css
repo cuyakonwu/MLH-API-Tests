@@ -1,0 +1,68 @@
+#logos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.logo-img {
+    width: 200px;
+    height: auto;
+}
+
+.link-name {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+#skills {
+    display: block;
+    position: relative;
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+.carousel-inner {
+    position: relative;
+    overflow: hidden;
+}
+
+.carousel-control-prev, .carousel-control-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 2.5rem;
+    height: 2.5rem;
+    background-color: black;
+    border: none;
+    border-radius: 50%;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.skills-category {
+    margin: 50px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+
+.skill {
+    background-color: #f2f2f2;
+    margin: 5px 0;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.carousel-control-next-icon::after {
+    transform: rotate(90deg);
+}
+
+.carousel-control-prev-icon::after {
+    transform: rotate(-90deg);
+}
